@@ -1,0 +1,172 @@
+body {
+    font-family: 'Great Vibes', cursive;
+    background-color: #e8b8dc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url(), linear-gradient(rgba(221, 160, 221, 0.5), rgba(221, 160, 221, 0.5)); /* Imagen de fondo con color lila */
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay; /* Para mezclar la imagen y el color lila */
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #eee;
+    background-color: #d4a5c4;
+    border-radius: 15px 15px 0 0;
+    font-family: 'Great Vibes', cursive;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #000000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+header h2 {
+    font-size: 1.8em;
+    color: #4e342e; /* Verde */
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1f8e9;
+}
+
+.event img {
+    max-width: 90%; /* Tamaño más pequeño */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.details h2 {
+    font-size: 2.2em;
+    margin: 0;
+    color: #4e342e;
+    font-family: 'Great Vibes', cursive;
+}
+
+.details p {
+    font-size: 1.3em;
+    color: #388e3c; /* Verde */
+}
+
+.countdown {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #eee;
+    background-color: #e8f5e9;
+}
+
+.countdown h2 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+    color: #4e342e;
+    font-family: 'Great Vibes', cursive;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+#countdown div {
+    padding: 10px;
+    background-color: #a1887f;
+    border-radius: 10px;
+    width: 80px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: #110f0f;
+}
+
+#countdown span {
+    display: block;
+    font-size: 2.5em;
+    font-family: 'Great Vibes', cursive;
+}
+
+.rsvp {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1f8e9;
+    border-top: 2px solid #eee;
+}
+
+.rsvp h2 {
+    font-size: 2.5em;
+    color: #4e342e;
+    font-family: 'Great Vibes', cursive;
+}
+
+.rsvp-button, .location-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #4e342e;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.rsvp-button:hover, .location-button:hover {
+    background-color: #3e2723;
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #e8f5e9;
+    border-top: 2px solid #eee;
+}
+
+.social-media h2 {
+    font-size: 2.5em;
+    color: #4e342e;
+    font-family: 'Great Vibes', cursive;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #eee;
+    font-size: 0.9em;
+    color: #777;
+    background-color: #e8f5e9;
+    border-radius: 0 0 15px 15px;
+}
